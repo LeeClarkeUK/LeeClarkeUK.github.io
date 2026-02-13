@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for a vibe coder, game developer, and web app developer."
+    />
+    <title>Lee Clarke | Playable Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#top">
+          <span class="logo-dot"></span>
+          Lee Clarke
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button ghost" href="#contact">Hire Me</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Vibe Coder / Game Developer / Web App Developer</p>
+          <h1>I build playable products with production-grade code.</h1>
+          <p class="lead">
+            I create game-inspired experiences and web apps that feel fast,
+            intentional, and memorable. From mechanics to deployment, I ship.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">View Projects</a>
+            <a class="button ghost" href="#contact">Get In Touch</a>
+          </div>
+          <ul class="quick-stats">
+            <li><strong>20+</strong><span>Prototypes shipped</span></li>
+            <li><strong>6</strong><span>Stacks mastered</span></li>
+            <li><strong>1</strong><span>Goal: build iconic products</span></li>
+          </ul>
+        </div>
+        <div class="hero-play reveal">
+          <div class="play-header">
+            <span>Interactive Signature</span>
+            <small>Move cursor to bend the field</small>
+          </div>
+          <canvas id="hero-canvas" width="560" height="420"></canvas>
+        </div>
+      </section>
+
+      <section id="projects" class="container section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Projects that blend systems thinking and style.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <p class="chip">Game Systems</p>
+            <h3>Neon Arena Prototype</h3>
+            <p>
+              Built a fast-action arena loop with procedural encounters, boss
+              states, and telemetry-backed balancing.
+            </p>
+            <ul>
+              <li>Role: Gameplay + Tools</li>
+              <li>Stack: Unity, C#, Scriptable Objects</li>
+              <li>Result: 40% faster content iteration</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Demo</a>
+              <a href="#">Repo</a>
+              <a href="#">Case Study</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="chip">Web App</p>
+            <h3>Creator Dashboard Platform</h3>
+            <p>
+              Designed a modular dashboard for creators to manage analytics,
+              publishing pipelines, and AI-assisted content workflows.
+            </p>
+            <ul>
+              <li>Role: Full-stack lead</li>
+              <li>Stack: Next.js, TypeScript, PostgreSQL</li>
+              <li>Result: Reduced admin time by 55%</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Live</a>
+              <a href="#">Repo</a>
+              <a href="#">Case Study</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="chip">Experimental UI</p>
+            <h3>Playable Portfolio Engine</h3>
+            <p>
+              Created a WebGL-first storytelling site where scrolling and input
+              drive transitions, states, and scene logic.
+            </p>
+            <ul>
+              <li>Role: Creative dev + frontend</li>
+              <li>Stack: React, Three.js, GSAP</li>
+              <li>Result: 2.3x higher session depth</li>
+            </ul>
+            <div class="card-links">
+              <a href="#">Live</a>
+              <a href="#">Repo</a>
+              <a href="#">Breakdown</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="container section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skill Stack</p>
+          <h2>High-agency execution across gameplay and product.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Game Development</h3>
+            <p>Unity, Unreal, Godot, C#, Shader Graph, GLSL</p>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Frontend + UX</h3>
+            <p>React, Next.js, TypeScript, Motion Design, Three.js</p>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Backend + Platform</h3>
+            <p>Node.js, PostgreSQL, Redis, API Design, Docker, CI/CD</p>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Creative Workflow</h3>
+            <p>Rapid prototyping, AI tooling, user feedback loops</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="container section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Build Timeline</p>
+          <h2>How I ship from concept to production.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="year">2026</span>
+            <h3>Scaling product-quality web apps</h3>
+            <p>
+              Focused on resilient architectures, fast release cycles, and
+              delightful interactions that improve retention.
+            </p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="year">2025</span>
+            <h3>Procedural gameplay prototypes</h3>
+            <p>
+              Built and tested mechanics systems with rapid balancing loops and
+              analytics instrumentation.
+            </p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="year">2024</span>
+            <h3>First multiplayer web experiences</h3>
+            <p>
+              Delivered real-time app features with low-latency transport and
+              clean state synchronization.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container section">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something people remember.</h2>
+          <p>
+            Open to game systems, web products, and hybrid interactive builds.
+          </p>
+          <div class="contact-links">
+            <a class="button" href="mailto:hello@leeclarke.dev">Email Me</a>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">itch.io</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Lee Clarke • Building playable software • Based in the UK</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
